@@ -77,7 +77,7 @@ def generate(client, index_rotation, bulk_size, host):
                 "localIP": "127.0.0.1",
                 "container_name": f"/dummy-container-name-{indexName}",
                 "requestUrl": f"https://dummy-server:54321/example",
-                "host": f"dummy-host-{indexName}",
+                "host": f"dummy-host-{hostname}",
                 "requestStarted": timestamp,
                 "level_value": 10000,
                 "resHeader_Server": f"Dummy-Server/1.0.0",
